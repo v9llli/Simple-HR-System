@@ -1,0 +1,28 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.form-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+.employee-card {
+    transition: transform 0.2s;
+}
+.employee-card:hover {
+    transform: translateY(-5px);
+}
+.search-box {
+    position: relative;
+}
+.search-box i {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
